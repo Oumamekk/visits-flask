@@ -19,4 +19,4 @@ def hello():
     hostname=socket.gethostname(), visits=visits) 
     
 if __name__ == "__main__": 
-    app.run(host='50.52.54.54', port=80)
+    app.run(host='0.0.0.0', port=80)
