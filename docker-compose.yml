@@ -2,7 +2,7 @@ version: "3"
 services:
   web:
     # replace username/repo:tag with your name and image details
-    image: mekkori/visits-flask1:ome-v2
+    image: mekkori/visits-flask1:ome-v3
     deploy:
       replicas: 3
       restart_policy:
